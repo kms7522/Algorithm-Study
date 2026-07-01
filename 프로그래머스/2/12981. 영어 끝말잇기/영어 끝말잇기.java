@@ -1,5 +1,9 @@
 import java.util.*;
-
+/*
+1. 해시 세트 만들어서 중복확인
+2. 전단어 뒷글자와 현단어 앞글자 체크
+    실패 인덱스만 찾아서 게산했으면 더 깔끔했을듯
+*/
 class Solution {
     public int[] solution(int n, String[] words) {
         int[] answer = new int[2];
