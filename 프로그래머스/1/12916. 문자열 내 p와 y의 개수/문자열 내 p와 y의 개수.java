@@ -1,3 +1,9 @@
+/*
+1. 문자열 소문자로 바꿈
+2. p면 cnt++ y면 cnt--
+3. cnt 0이면 true
+*/
+
 class Solution {
     boolean solution(String s) {
         boolean answer = true;
