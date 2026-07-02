@@ -1,5 +1,9 @@
 import java.util.*;
 
+/*
+원형 수열 배열 크기로 % 연산하여 구현
+각각 합 구한다음에 해시로 중복 없앰
+*/
 class Solution {
     public int solution(int[] elements) {
         int answer = 0;
