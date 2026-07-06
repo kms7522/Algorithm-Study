@@ -1,4 +1,7 @@
--- 코드를 입력하세요
+/*
+WHERE MCDP_CD IN ('CS', 'GS')
+이게더 깔끔한듯
+*/
 SELECT DR_NAME, DR_ID, MCDP_CD, TO_CHAR(HIRE_YMD, 'YYYY-MM-DD')
 FROM DOCTOR
 WHERE MCDP_CD = 'CS'
